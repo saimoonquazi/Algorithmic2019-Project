@@ -51,7 +51,7 @@ def BFS(start, end, pixels,img_width,img_height,image):
  
         path = queue.get() 
         pixel = path[-1]
-        print(pixel)
+        #print(pixel)
         if pixel == end:
             return path,i
         
@@ -93,7 +93,7 @@ def run_BFS(img_file):
                 initial_coords = (x, y)
             if pixel == COLOR_END:
                 destination_coords = (x, y)    
-    print(destination_coords)
+    #print(destination_coords)
     path,nodes_visited = BFS(initial_coords, destination_coords, pixels,width,height,image)
     #print(path)
     path_img = Image.open(img_file)

@@ -101,7 +101,8 @@ class App(QWidget):
         self.AlgoInfo_AlgoRun_l.setText("Status:")
         
         self.AlgoInfo_AlgoRun=QLabel(self)
-        self.AlgoInfo_AlgoRun.setGeometry(QRect(1535, 660, 300, 20))
+        self.AlgoInfo_AlgoRun.setGeometry(QRect(1485, 660, 400, 50))
+        self.AlgoInfo_AlgoRun.setWordWrap(True)
         self.AlgoInfo_AlgoRun.setText("")
         
         self.AlgoInfo_SPLength_l=QLabel(self)
