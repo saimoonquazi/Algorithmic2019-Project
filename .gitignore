@@ -1,2 +1,6 @@
-Sample_Mazes\
-*.png
+solved\
+test\
+
+
+*.gif
+*.ipnyb
